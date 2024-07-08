@@ -1,23 +1,26 @@
+    document.addEventListener('keydown', function(e) {
+      // F12 key
+      if (e.keyCode === 123) {
+          e.preventDefault();
+      }
+      // Ctrl+Shift+I
+      if (e.ctrlKey && e.shiftKey && e.keyCode === 73) {
+          e.preventDefault();
+      }
+      // Ctrl+Shift+J
+      if (e.ctrlKey && e.shiftKey && e.keyCode === 74) {
+          e.preventDefault();
+      }
+      // Ctrl+U
+      if (e.ctrlKey && e.keyCode === 85) {
+          e.preventDefault();
+      }
+    }, false);
 
-document.addEventListener('keydown', function(e) {
-    // F12 key
-    if (e.keyCode === 123) {
-        e.preventDefault();
-    }
-    // Ctrl+Shift+I
-    if (e.ctrlKey && e.shiftKey && e.keyCode === 73) {
-        e.preventDefault();
-    }
-    // Ctrl+Shift+J
-    if (e.ctrlKey && e.shiftKey && e.keyCode === 74) {
-        e.preventDefault();
-    }
-    // Ctrl+U
-    if (e.ctrlKey && e.keyCode === 85) {
-        e.preventDefault();
-    }
-}, false);
-
+    // Disable right-click context menu
+    document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+    });
 
 
 
