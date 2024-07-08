@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "question": "HTML Fullform",
+    "answers": [
+      "HypnoToad Multiple Loop",
+      "HardText Markup Language",
+      "HyperText Markup Language",
+      "None of the alternatives"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 2,
+    "question": "What does JS stand for in web development?",
+    "answers": [
+      "Java Server", 
+      "Java Source", 
+      "JavaScript", 
+      "JScript"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 3,
+    "question": "What does CSS stand for in web development?",
+    "answers": [
+      "Cascading Style Sheets", 
+      "Computer Style Sheets", 
+      "Creative Style Sheets", 
+      "Colorful Style Sheets"
+    ],
+    "correct": 0
+  }
+]
