@@ -1,5 +1,4 @@
 
-// Disable specific key combinations
 document.addEventListener('keydown', function(e) {
     // F12 key
     if (e.keyCode === 123) {
@@ -18,6 +17,7 @@ document.addEventListener('keydown', function(e) {
         e.preventDefault();
     }
 }, false);
+
 
 
 
